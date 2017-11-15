@@ -18,12 +18,14 @@ def resolve(answer)
     puts "You guessed the correct number!"
     answer = get_number
     get_user_input
+    prompt_user
   elsif input == "exit"
     puts "Goodbye!"
   else
     puts "The computer guessed #{answer}."
     answer = get_number
     get_user_input
+    prompt_user
   end
   # binding.pry
 end
