@@ -22,6 +22,7 @@ def resolve(answer)
     puts "Goodbye!"
   else
     puts "The computer guessed #{answer}."
+    answer = get_number
   end
   # binding.pry
 end
