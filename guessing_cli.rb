@@ -16,6 +16,7 @@ def resolve(answer)
   input = get_user_input
   if input == answer.to_s
     puts "You guessed the correct number!"
+    get_number
   elsif input == "exit"
     puts "Goodbye!"
   else
